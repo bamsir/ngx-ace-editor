@@ -4,9 +4,9 @@ import typescript from 'rollup-plugin-typescript2';
 export default {
 	input: 'dist/index.js',
 	output: {
-		file: 'dist/bundles/ng2-ace-editor.umd.js',
+		file: 'dist/bundles/ngx-ace-editor.umd.js',
 		format: 'umd',
-		name: 'ng.ng2aceeditor',
+		name: 'ng.ngxaceeditor',
 		sourcemap: false,
 		globals: {
 			'@angular/core': 'ng.core',
